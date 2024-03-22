@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
 import IpAdress from "./IpAdress.js";
+import Latency from './PylonConnector.js';
 
 
 class App extends Component {
@@ -16,6 +17,9 @@ class App extends Component {
           <Exhibit exhibitTitle="IPv6">
             <IpAdress ipType="ipv6"></IpAdress>
           </Exhibit>
+          <Exhibit name="Pylon Packet Latency">
+                    <Latency/>
+                </Exhibit>
             </div>
         );
     }

@@ -14,7 +14,7 @@ const IpAdress = ({ ipType }) => {
     }, []);
 
     return (
-        <div>Your public IP Address: {ipAddress}</div>
+        <div>Your public {ipType} IP Address: {ipAddress}</div>
     )
 }
 
